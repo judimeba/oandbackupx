@@ -92,7 +92,7 @@
     <string name="prefs_rememberfiltering">Recordar orden y filtros</string>
     <string name="prefs_rememberfiltering_summary">Guardar el orden y filtros establecidos. Solo los seleccionados serán tenidos en cuenta.</string>
     <string name="prefs_oldbackups">Filtrar respaldos por fecha</string>
-    <string name="prefs_oldbackups_summary">Filtrar los backups mas antiguos de n dias.Utiliza el filtro \'Mostrar respaldos antiguos\'.</string>
+    <string name="prefs_oldbackups_summary">Filtrar los backups mas antiguos de X dias.Utiliza el filtro \'Mostrar respaldos antiguos\'.</string>
     <string name="prefs_service">Prefencias de servicio</string>
     <string name="prefs_encryption">Encriptacion</string>
     <string name="prefs_encryption_summary">Activar encriptacion de los respaldos de datos</string>
@@ -205,8 +205,8 @@
         \ n • La restauracion de las aplicaciones del sistema debería ser posible sin necesidad de reiniciar dispositivo y no notificamos si es necesario o no.
 		\ n • Las copias de seguridad se pueden programar sin límite de programaciones y existe la posibilidad de crear listas personalizadas.</string>
 		
-    <string name="intro_permission_storage">La aplicacion utiliza permisos de lectura/escritura en el almacenamiento para poder acceder al almacenamiento externo y ofrecer la posibilidad de realizar una copia de seguridad de datos externos/obb de algunas aplicaciones</string>
-    <string name="intro_permission_storage_location">TLa aplicacion necesita una ubicacion para almacenar los respaldos. La aplicacion puede necesitar algunos gigabytes de almacenamiento para cada copia de seguridad completa. Tenga esto en cuenta al elegir la ubicacion de almacenamiento basada en la red.</string>
+    <string name="intro_permission_storage">La aplicacion utiliza permisos de lectura/escritura en el almacenamiento para poder acceder a la /sdcard y ofrecer la posibilidad de realizar una copia de seguridad de datos externos/obb de algunas aplicaciones</string>
+    <string name="intro_permission_storage_location">La aplicacion necesita una ubicacion para almacenar los respaldos. La aplicacion puede necesitar algunos gigabytes de almacenamiento para cada copia de seguridad completa. Tenga esto en cuenta al elegir la ubicacion de almacenamiento basada en la red.</string>
     <string name="intro_permission_usageaccess">La aplicacion necesita este permiso para poder verificar las estadísticas y tamaños de datos y cache de sus aplicaciones.</string>
     <string name="intro_permission_batteryoptimization">La aplicación puede tener algunos problemas al realizar copias de seguridad programadas en algunas ROM que tienen optimizaciones de batería agresivas, por ejemplo. MIUI, pero incluso en AOSP de vainilla puede suceder</string>
     <string name="msg_appkill_warning">Se detendrán las aplicaciones seleccionadas. Asegúrese de reiniciar su dispositivo después del proceso o de abrir aplicaciones como su  despertador o calendario para evitar perder notificaciones importantes. Es posible que su teclado o Launcher se restablezca a la aplicación predeterminada.</string>
